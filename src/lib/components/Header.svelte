@@ -7,14 +7,15 @@
 <header>
     <div class="header-container">
         <div class="logo-section">
-            <a href="/" class="brand-link">Mauricio José Cárdenas </a>
+            <a href="/" class="brand-link">mauriciojc.com </a>
         </div>
 
         <nav class="nav-menu">
             <a href="/">Inicio</a>
-            <a href="/tutorias">Tutorías</a>
-            <a href="/cursos">Cursos</a>
             <a href="/blog">Blog</a>
+            <a href="/blog/meditacion">Meditación</a>
+            <a href="/blog/recomendaciones">Recomendaciones</a>
+            <a href="/blog/foto">Fotografía</a>
             <a href="/#contacto">Contacto</a>
         </nav>
 
@@ -53,21 +54,22 @@
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #0c325a;
-        border-bottom: 1px solid #2a2829;
+        background-color: #104239;
+        /* border-bottom: 1px solid #2a2829; */
         z-index: 1000;
+        color: #d7d7ea;
     }
 
     .header-container {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0.75rem 1.5rem;
+        padding: 0.8rem 1.6rem;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
-        gap: 2rem;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
     }
 
     .brand-link {
@@ -85,16 +87,16 @@
     }
 
     .nav-menu a {
-        color: #ffffff;
-        font-weight: 500;
+        /* color: #ffffff; */
+        /* font-weight: 500; */
         /* font-size: 0.95rem; */
         text-decoration: none;
-        transition: opacity 0.2s;
-        white-space: nowrap;
+        /* transition: opacity 0.2s; */
+        /* white-space: nowrap; */
     }
 
     .nav-menu a:hover {
-        color: #ff7a00;
+        color: #33bdeb;
     }
 
     .social-icons {

@@ -27,9 +27,11 @@
 
 <style>
     footer {
-        background-color: #0c325a;
-        border-top: 1px solid #2a2829;
-        padding: 3rem 2rem;
+        background-color: #104239;
+        max-width: 1200px;
+        color: #d7d7ea;
+        /* border-top: 1px solid #2a2829; */
+        /* padding: 3rem 2rem; */
     }
 
     .col {
@@ -37,10 +39,8 @@
         flex-direction: column;
         gap: 0.5rem;
     }
-    .col a {
-        color: #e0f2fe;
-    }
+
     .col a:hover {
-        color: #ff7a00;
+        color: #33bdeb;
     }
 </style>
