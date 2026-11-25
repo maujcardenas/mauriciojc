@@ -1,5 +1,5 @@
 <footer>
-    <div class="grid-2">
+    <div class="grid">
         <div class="col">
             <h3>Mauriciojc</h3>
             <p>Blog personal</p>
@@ -29,6 +29,7 @@
     footer {
         background-color: #104239;
         max-width: 1200px;
+        margin: 0 auto;
         color: #d7d7ea;
         /* border-top: 1px solid #2a2829; */
         /* padding: 3rem 2rem; */

@@ -13,7 +13,7 @@
                 class="card clickable-card"
                 onclick={() => navigateToPost(post.slug)}
             >
-                <h2>{post.title}</h2>
+                <h3>{post.title}</h3>
                 <span>{post.category}</span>
                 <p>{post.description}</p>
             </div>

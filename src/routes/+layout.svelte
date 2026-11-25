@@ -21,11 +21,11 @@
         padding: 0;
         font-family: "DM Sans", sans-serif;
         background-color: #D7D7EA;
-        color: #080708;
+        /* color: #080708; */
     }
 
     :global(h1){
-        font-size: 4.8rem;
+        font-size: 3.6rem;
     }
     :global(h2){
         font-size: 2.4rem;
@@ -42,7 +42,7 @@
         color: #080708;
     }
     :global(a) {
-        color: #0c325a;
+        color: #D7D7EA;
         text-decoration: none;
     }
     :global(img) {
