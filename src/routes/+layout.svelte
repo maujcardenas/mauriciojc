@@ -21,7 +21,7 @@
         padding: 0;
         font-family: "DM Sans", sans-serif;
         background-color: #D7D7EA;
-        /* color: #080708; */
+        color: #080708;
     }
 
     :global(h1){
@@ -35,16 +35,17 @@
     }
     
     :global(section) {
-        margin: 4rem 0;
+        margin: 4rem 0rem 12rem 0rem;
     }
 
-    :global(p, span, li) {
-        color: #080708;
-    }
     :global(a) {
-        color: #D7D7EA;
+        color: #ffffff;
         text-decoration: none;
     }
+    a:hover {
+        color: #33bdeb;
+    }
+    
     :global(img) {
         max-width: 100%;
         height: auto;
@@ -71,15 +72,14 @@
         text-align: center;
     }
     :global(.btn:hover) {
-        background-color: #080708;
+        background-color: #104239;
     }
     
     :global(.card) {
-        padding: 3rem;
-        background-color: #104239;
-        color: #D7D7EA;
+        padding: 2rem;
+        background-color: #CFCFE2;
         overflow: hidden;
-        max-width: 24rem;
+        max-width: 48rem;
         border-radius: 0.25rem;
         box-shadow:
             0 10px 15px -3px rgb(0 0 0 / 0.1),

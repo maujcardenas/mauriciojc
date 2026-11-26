@@ -86,19 +86,6 @@
         gap: 1rem;
     }
 
-    .nav-menu a {
-        /* color: #ffffff; */
-        /* font-weight: 500; */
-        /* font-size: 0.95rem; */
-        text-decoration: none;
-        /* transition: opacity 0.2s; */
-        /* white-space: nowrap; */
-    }
-
-    .nav-menu a:hover {
-        color: #33bdeb;
-    }
-
     .social-icons {
         display: flex;
         align-items: center;
